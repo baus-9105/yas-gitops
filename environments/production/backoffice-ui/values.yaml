@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: ndbau/backoffice-ui
+    repository: ndbau/backoffice
     tag: "stable"
