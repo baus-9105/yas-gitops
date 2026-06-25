@@ -2,3 +2,7 @@ backend:
   image:
     repository: ndbau/storefront-bff
     tag: "stable"
+  ingress:
+    enabled: true
+    host: storefront.yas.local.com
+    path: /
