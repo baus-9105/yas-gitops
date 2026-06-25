@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: ndbau/storefront-bff
+    tag: "stable"

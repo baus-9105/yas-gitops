@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: ndbau/backoffice-bff
+    tag: "latest"

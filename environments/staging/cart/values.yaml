@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: ndbau/cart
+    tag: "latest"

@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: ndbau/payment
+    tag: "stable"

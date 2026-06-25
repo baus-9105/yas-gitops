@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: ndbau/swagger-ui
+    tag: "latest"
