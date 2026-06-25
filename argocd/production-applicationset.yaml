@@ -1,0 +1,47 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: yas-production
+  namespace: argocd
+spec:
+  generators:
+  - list:
+      elements:
+      - service: backoffice-bff
+      - service: backoffice-ui
+      - service: cart
+      - service: customer
+      - service: inventory
+      - service: location
+      - service: media
+      - service: order
+      - service: payment
+      - service: product
+      - service: promotion
+      - service: rating
+      - service: sampledata
+      - service: search
+      - service: storefront-bff
+      - service: storefront-ui
+      - service: swagger-ui
+      - service: tax
+  template:
+    metadata:
+      name: 'production-{{service}}'
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/baus-9105/yas-gitops.git
+        targetRevision: HEAD
+        path: 'charts/{{service}}'
+        helm:
+          valueFiles:
+          - values.yaml
+          - '../../environments/production/{{service}}/values.yaml'
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: yas
+      syncPolicy:
+        syncOptions:
+        - CreateNamespace=false
+        # Không có automated → manual sync qua UI hoặc CLI
