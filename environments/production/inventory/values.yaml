@@ -2,3 +2,9 @@ backend:
   image:
     repository: ndbau/inventory
     tag: "stable"
+
+  nameOverride: inventory
+  fullnameOverride: inventory
+  databaseName: inventory
+  ingress:
+    enabled: false
