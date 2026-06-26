@@ -1,7 +1,7 @@
 backend:
   image:
     repository: ndbau/storefront-bff
-    tag: "latest"
+    tag: "v0.0.1"
   ingress:
     enabled: true
     host: storefront.yas.local.com
