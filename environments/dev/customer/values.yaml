@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/customer
-    tag: "latest"
+    tag: "e5bbc95c82590b100d4581758b77bd0d872120a4"
