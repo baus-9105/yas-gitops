@@ -2,3 +2,5 @@ backend:
   image:
     repository: ndbau/cart
     tag: "latest"
+image:
+  tag: d034e7e2c3c7bcb0b8986964d78e50f3f84d45cd
