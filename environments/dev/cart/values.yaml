@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/cart
-    tag: "latest"
+    tag: "40439ae3f6ce63ca1eaf28a3b005a1703a2a31a8"
