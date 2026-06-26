@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/location
-    tag: "latest"
+    tag: "v0.0.1"
