@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/location
-    tag: "e5bbc95c82590b100d4581758b77bd0d872120a4"
+    tag: "e8d9a66734b23adbaafb84a4e122f16728161013"
