@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/media
-    tag: "stable"
+    tag: "latest"

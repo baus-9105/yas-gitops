@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/webhook
-    tag: "stable"
+    tag: "latest"

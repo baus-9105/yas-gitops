@@ -1,7 +1,7 @@
 backend:
   image:
     repository: ndbau/backoffice-bff
-    tag: "stable"
+    tag: "latest"
   ingress:
     enabled: true
     host: backoffice.yas.local.com

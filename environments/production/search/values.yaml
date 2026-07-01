@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/search
-    tag: "stable"
+    tag: "latest"

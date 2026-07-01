@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/sampledata
-    tag: "stable"
+    tag: "latest"

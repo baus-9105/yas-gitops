@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/payment-paypal
-    tag: "stable"
+    tag: "latest"

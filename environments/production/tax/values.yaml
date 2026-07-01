@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/tax
-    tag: "stable"
+    tag: "latest"

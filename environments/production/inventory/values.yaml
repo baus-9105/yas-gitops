@@ -1,8 +1,7 @@
 backend:
   image:
     repository: ndbau/inventory
-    tag: "stable"
-
+    tag: "latest"
   nameOverride: inventory
   fullnameOverride: inventory
   databaseName: inventory
