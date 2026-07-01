@@ -44,6 +44,11 @@ spec:
         server: https://kubernetes.default.svc
         namespace: yas
       syncPolicy:
-        syncOptions:
-        - CreateNamespace=false
+        # syncOptions:
+        # - CreateNamespace=false
         # Không có automated → manual sync qua UI hoặc CLI
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+        - CreateNamespace=true
