@@ -2,8 +2,3 @@ backend:
   image:
     repository: ndbau/inventory
     tag: "v0.0.1"
-  nameOverride: inventory
-  fullnameOverride: inventory
-  databaseName: inventory_staging
-  ingress:
-    enabled: false
