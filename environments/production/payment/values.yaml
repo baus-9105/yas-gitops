@@ -2,3 +2,5 @@ backend:
   image:
     repository: ndbau/payment
     tag: "latest"
+  labels:
+    app: payment

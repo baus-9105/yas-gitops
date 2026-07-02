@@ -2,3 +2,5 @@ backend:
   image:
     repository: ndbau/payment-paypal
     tag: "latest"
+  labels:
+    app: payment-paypal

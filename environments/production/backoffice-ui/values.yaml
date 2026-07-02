@@ -2,3 +2,5 @@ backend:
   image:
     repository: ndbau/backoffice
     tag: "latest"
+  labels:
+    app: backoffice

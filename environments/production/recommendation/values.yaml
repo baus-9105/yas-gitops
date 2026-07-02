@@ -2,3 +2,5 @@ backend:
   image:
     repository: ndbau/recommendation
     tag: "latest"
+  labels:
+    app: recommendation

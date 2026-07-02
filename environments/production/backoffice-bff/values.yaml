@@ -6,3 +6,5 @@ backend:
     enabled: true
     host: backoffice.yas.local.com
     path: /
+  labels:
+    app: backoffice-bff

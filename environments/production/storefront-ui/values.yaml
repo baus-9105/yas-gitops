@@ -1,4 +1,6 @@
 backend:
   image:
     repository: ndbau/storefront
-    tag: "latest" 
+    tag: "latest"
+  labels:
+    app: storefront
