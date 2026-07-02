@@ -40,16 +40,6 @@ helm.sh/chart: {{ include "backend.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-{{- $labels := dict }}
-{{- if kindIs "map" .Values.labels }}
-{{- $labels = .Values.labels }}
-{{- end }}
-{{- if and (hasKey .Values "backend") (kindIs "map" .Values.backend) (kindIs "map" .Values.backend.labels) }}
-{{- $labels = merge $labels .Values.backend.labels }}
-{{- end }}
-{{- with $labels }}
-{{ toYaml . }}
-{{- end }}
 {{- end }}
 
 {{/*
