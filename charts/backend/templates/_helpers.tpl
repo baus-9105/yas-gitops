@@ -48,7 +48,7 @@ Selector labels
 {{- define "backend.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "backend.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-app: {{ .Chart.Name }}
+app: {{ include "backend.name" . }}
 {{- end }}
 
 {{/*

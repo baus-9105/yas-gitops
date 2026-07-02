@@ -48,7 +48,7 @@ Selector labels
 {{- define "swagger-ui.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "swagger-ui.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-app: {{ .Chart.Name }}
+app: {{ include "swagger-ui.name" . }}
 {{- end }}
 
 {{/*
