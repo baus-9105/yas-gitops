@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/product
     tag: "latest"
-  labels:
-    app: product

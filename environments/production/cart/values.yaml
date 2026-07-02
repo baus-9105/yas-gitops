@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/cart
     tag: "latest"
-  labels:
-    app: cart

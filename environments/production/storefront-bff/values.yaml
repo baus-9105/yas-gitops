@@ -6,5 +6,3 @@ backend:
     enabled: true
     host: storefront.yas.local.com
     path: /
-  labels:
-    app: storefront-bff

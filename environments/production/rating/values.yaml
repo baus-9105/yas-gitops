@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/rating
     tag: "latest"
-  labels:
-    app: rating

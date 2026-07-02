@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/tax
     tag: "latest"
-  labels:
-    app: tax

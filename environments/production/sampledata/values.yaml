@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/sampledata
     tag: "latest"
-  labels:
-    app: sampledata

@@ -2,5 +2,3 @@ backend:
   image:
     repository: ndbau/order
     tag: "latest"
-  labels:
-    app: order
