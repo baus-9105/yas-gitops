@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/cart
-    tag: "40439ae3f6ce63ca1eaf28a3b005a1703a2a31a8"
+    tag: "4ad3cc3072c7c16ec1ac6bd66777156e6fe6a252"
