@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/backoffice
-    tag: "562f1879c17fa90d1751fe662abd0b02edade8bc"
+    tag: "58327c0691bb1e7d7212099a1c6b3e1c996c6642"
