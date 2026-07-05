@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/media
-    tag: "01b4c3ea35096a4e9b19a86b3a716db47a6ce24f"
+    tag: "d2cf6672b01257e505ea04253a5841832079053a"
