@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/payment
-    tag: "01b4c3ea35096a4e9b19a86b3a716db47a6ce24f"
+    tag: "58327c0691bb1e7d7212099a1c6b3e1c996c6642"
