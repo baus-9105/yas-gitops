@@ -1,7 +1,7 @@
 backend:
   image:
     repository: ndbau/storefront-bff
-    tag: "07424882184a99e90013a8df53434382cd254e33"
+    tag: "58327c0691bb1e7d7212099a1c6b3e1c996c6642"
   ingress:
     enabled: true
     host: storefront.dev.yas.local.com
