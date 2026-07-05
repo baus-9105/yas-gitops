@@ -1,4 +1,4 @@
 backend:
   image:
     repository: ndbau/product
-    tag: "4ad3cc3072c7c16ec1ac6bd66777156e6fe6a252"
+    tag: "01b4c3ea35096a4e9b19a86b3a716db47a6ce24f"
