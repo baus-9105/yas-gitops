@@ -4,7 +4,7 @@ image:
 ingress:
   enabled: true
   className: "nginx"
-  host: storefront.yas.local.com
+  host: storefront.dev.yas.local.com
   annotations: {}
   hosts:
     - host: storefront.dev.yas.local.com
